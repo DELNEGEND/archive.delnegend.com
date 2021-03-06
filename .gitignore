@@ -1,0 +1,5 @@
+*.note
+*.md
+*.js_
+*.ignore
+node_modules/
