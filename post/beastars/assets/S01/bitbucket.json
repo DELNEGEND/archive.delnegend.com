@@ -14,19 +14,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S01/CC/01.vi.vtt"
+        "src": "assets/s01/CC/01.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S01/CC/01.en.vtt"
+        "src": "assets/s01/CC/01.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S01/CC/01.id.vtt"
+        "src": "assets/s01/CC/01.id.vtt"
       }
     ]
   },
@@ -45,19 +45,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S02/CC/02.vi.vtt"
+        "src": "assets/s01/CC/02.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S02/CC/02.en.vtt"
+        "src": "assets/s01/CC/02.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S02/CC/02.id.vtt"
+        "src": "assets/s01/CC/02.id.vtt"
       }
     ]
   },
@@ -76,19 +76,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S03/CC/03.vi.vtt"
+        "src": "assets/s01/CC/03.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S03/CC/03.en.vtt"
+        "src": "assets/s01/CC/03.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S03/CC/03.id.vtt"
+        "src": "assets/s01/CC/03.id.vtt"
       }
     ]
   },
@@ -107,19 +107,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S04/CC/04.vi.vtt"
+        "src": "assets/s01/CC/04.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S04/CC/04.en.vtt"
+        "src": "assets/s01/CC/04.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S04/CC/04.id.vtt"
+        "src": "assets/s01/CC/04.id.vtt"
       }
     ]
   },
@@ -138,19 +138,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S05/CC/05.vi.vtt"
+        "src": "assets/s01/CC/05.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S05/CC/05.en.vtt"
+        "src": "assets/s01/CC/05.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S05/CC/05.id.vtt"
+        "src": "assets/s01/CC/05.id.vtt"
       }
     ]
   },
@@ -169,19 +169,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S06/CC/06.vi.vtt"
+        "src": "assets/s01/CC/06.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S06/CC/06.en.vtt"
+        "src": "assets/s01/CC/06.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S06/CC/06.id.vtt"
+        "src": "assets/s01/CC/06.id.vtt"
       }
     ]
   },
@@ -200,19 +200,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S07/CC/07.vi.vtt"
+        "src": "assets/s01/CC/07.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S07/CC/07.en.vtt"
+        "src": "assets/s01/CC/07.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S07/CC/07.id.vtt"
+        "src": "assets/s01/CC/07.id.vtt"
       }
     ]
   },
@@ -231,19 +231,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S08/CC/08.vi.vtt"
+        "src": "assets/s01/CC/08.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S08/CC/08.en.vtt"
+        "src": "assets/s01/CC/08.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S08/CC/08.id.vtt"
+        "src": "assets/s01/CC/08.id.vtt"
       }
     ]
   },
@@ -262,19 +262,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S09/CC/09.vi.vtt"
+        "src": "assets/s01/CC/09.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S09/CC/09.en.vtt"
+        "src": "assets/s01/CC/09.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S09/CC/09.id.vtt"
+        "src": "assets/s01/CC/09.id.vtt"
       }
     ]
   },
@@ -293,19 +293,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S10/CC/10.vi.vtt"
+        "src": "assets/s01/CC/10.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S10/CC/10.en.vtt"
+        "src": "assets/s01/CC/10.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S10/CC/10.id.vtt"
+        "src": "assets/s01/CC/10.id.vtt"
       }
     ]
   },
@@ -324,19 +324,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S11/CC/11.vi.vtt"
+        "src": "assets/s01/CC/11.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S11/CC/11.en.vtt"
+        "src": "assets/s01/CC/11.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S11/CC/11.id.vtt"
+        "src": "assets/s01/CC/11.id.vtt"
       }
     ]
   },
@@ -355,19 +355,19 @@
         "kind": "subtitles",
         "label": "Vietnamese",
         "srclang": "VN",
-        "src": "assets/S12/CC/12.vi.vtt"
+        "src": "assets/s01/CC/12.vi.vtt"
       },
       {
         "kind": "subtitles",
         "label": "English",
         "srclang": "EN",
-        "src": "assets/S12/CC/12.en.vtt"
+        "src": "assets/s01/CC/12.en.vtt"
       },
       {
         "kind": "subtitles",
         "label": "Indonesian",
         "srclang": "ID",
-        "src": "assets/S12/CC/12.id.vtt"
+        "src": "assets/s01/CC/12.id.vtt"
       }
     ]
   },
