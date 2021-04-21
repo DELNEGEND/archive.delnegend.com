@@ -1,5 +1,8 @@
 const dngndFunc = {
   speed: "normal",
+  d(selector) {
+    return document.querySelector(selector);
+  },
   randomString(length = 20) {
     let result = '';
     let chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
@@ -234,20 +237,21 @@ const dngndFunc = {
 };
 document.addEventListener("DOMContentLoaded", async () => {
 
-  // Btn bật/tắt darkmode
+  //#region Btn bật/tắt darkmode
   $("#darkModeToggle").on('click', function () {
     let isDark = this.checked;
     if (!isDark) {
-      $("html")[0].removeAttribute('night');
+      dngndFunc.d("html").removeAttribute('night');
       localStorage.setItem('darkmode', 'disabled');
     }
     if (isDark) {
-      $("html")[0].setAttribute('night', '');
+      dngndFunc.d("html").setAttribute('night', '');
       localStorage.setItem('darkmode', 'enabled');
     }
   });
+  //#endregion
 
-  // Tắt/bật công tắc
+  //#region Tắt/bật công tắc
   // $(".toggleElemBtn>input").on("click", function () {
   //   let status = this.checked,
   //     label = this.parentNode.parentNode,
@@ -261,6 +265,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   //     showText.classList.add("inactive");
   //   }
   // });
+  //#endregion
 
   $(".table").each((i, e) => (!e.getAttribute('tweaked')) && dngndFunc.tweakTable(e));
 
@@ -299,7 +304,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // #endregion
 
-  //#region Firefox Lưu lại state "check" của btn
+  // #region Firefox Lưu lại state "check" của btn
   if (dngndFunc.isFirefox()) {
     $('.toggleElemBtn>input').each((i, e) => {
       let status = e.checked;
@@ -311,21 +316,29 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
   //#endregion
 
+  let singlePage = dngndFunc.d('.info-ctn') ? dngndFunc.d('.info-ctn') : void 0;
+  if (singlePage) {
+    singlePage.querySelector('.title').innerHTML = dngndFunc.d('movie-name').innerHTML;
+    singlePage.querySelector('.release-year').innerHTML = dngndFunc.d('release-year').innerHTML;
+  }
+
 });
 window.addEventListener('load', () => {
   if (!dngndFunc.isFirefox()) dngndFunc.recheckBoxes();
 });
-// #region WEBP Polyfill
-// var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) {
-//   return p.toString() === "[object SafariRemoteNotification]";
-// })(!window.safari || (typeof safari !== 'undefined' && safari.pushNotification));
 
-// if (!!document.documentMode || isSafari) {
-//   let webpMachine = new webpHero.WebpMachine();
-//   webpMachine.polyfillDocument();
-// }
+// #region WEBP Polyfill
+var isSafari = /constructor/i.test(window.HTMLElement) || (function (p) {
+  return p.toString() === "[object SafariRemoteNotification]";
+})(!window.safari || (typeof safari !== 'undefined' && safari.pushNotification));
+
+if (!!document.documentMode || isSafari) {
+  let webpMachine = new webpHero.WebpMachine();
+  webpMachine.polyfillDocument();
+}
 // #endregion
 
+// #region Get the DOM path of the clicked <a>
 // Source: https://stackoverflow.com/a/28150097
 $.fn.fullSelector = function () {
   let path = this.parents().addBack();
@@ -340,3 +353,4 @@ $.fn.fullSelector = function () {
   }).join(' > ');
   return quickCss;
 };
+//#endregion
