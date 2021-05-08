@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 const dngndFunc = {
   speed: 'normal',
   d(selector) {
@@ -28,10 +29,9 @@ const dngndFunc = {
     const tempID = `NotiTempID_${new Date().getTime()}`;
     // Tạo container chứa dngndFunc.msgBox nếu chưa có
     if (!$('.alert-container')[0]) {
-      $('body').append( /* html */ `<div class="alert-container"><div class="inneralert-container"></div></div>`);
+      $('body').append(`<div class="alert-container"><div class="inneralert-container"></div></div>`);
     }
-    $('.inneralert-container')
-      .append( /* html */ `<div class="alert" id="${tempID}" role="alert" style="display:none">${message}</div>`);
+    $('.inneralert-container').append(`<div class="alert" id="${tempID}" role="alert" style="display:none">${message}</div>`);
     $(`#${tempID}`).slideDown(this.speed);
     setTimeout(() => {
       $(`#${tempID}`).slideUp(this.speed, () => $(`#${tempID}`).remove());
@@ -103,7 +103,7 @@ const dngndFunc = {
       `);
     });
   },
-  async dlTableView(YAML_file, element, directOrNormal = 'normal') {  
+  async dlTableView(YAML_file, element, directOrNormal = 'normal') {
     if (!element) return new Error('Invalid element');
     const
       data = await this.getYAML(YAML_file) || [];
@@ -298,19 +298,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   };
   downloadView();
-  // #endregion
-
-  // #region plugins config
-  // Add slideDown animation to Bootstrap dropdown when expanding.
-  $('.dropdown').on('show.bs.dropdown', function() {
-    $(this).find('.dropdown-menu').first().stop(true, true).slideDown('fast');
-  });
-
-  // Add slideUp animation to Bootstrap dropdown when collapsing.
-  $('.dropdown').on('hide.bs.dropdown', function() {
-    $(this).find('.dropdown-menu').first().stop(true, true).slideUp('fast');
-  });
-
   // #endregion
 
   // #region Firefox Lưu lại state "check" của btn
