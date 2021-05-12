@@ -1,24 +1,40 @@
 - episode: 1
   title: Everything's Okay
-  _1: Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E01.Everythings.Okay/index.m3u8
+  url:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E01.Everythings.Okay/index.m3u8
 - episode: 2
   title: Somebody's Been Reading Dante's Inferno
-  _1: Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E02.Somebodys.Been.Reading.Dantes.Inferno/index.m3u8
+  url:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E02.Somebodys.Been.Reading.Dantes.Inferno/index.m3u8
 - episode: 3
   title: O, Ye of Little Faith, Father
-  _1: Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E03.O.Ye.of.Little.Faith.Father/index.m3u8
+  url:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E03.O.Ye.of.Little.Faith.Father/index.m3u8
 - episode: 4
   title: All About Eve
-  _1: Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E04.All.About.Eve/index.m3u8
+  url:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E04.All.About.Eve/index.m3u8
 - episode: 5
   title: Expire Erect
-  _1: Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E05.Expire.Erect/index.m3u8
+  url:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E05.Expire.Erect/index.m3u8
 - episode: 6
   title: Orgy Pants to Work
-  _1: Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E06.Orgy.Pants.To.Work/index.m3u8
+  url:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E06.Orgy.Pants.To.Work/index.m3u8
 - episode: 7
   title: Devil Is as Devil Does
-  _1: Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E07.Devil.Is.As.Devil.Does/index.m3u8
+  url:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E07.Devil.Is.As.Devil.Does/index.m3u8
 - episode: 8
   title: Super Bad Boyfriend
-  _1: Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E08.Super.Bad.Boyfriend/index.m3u8
+  url:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.part1/-/raw/master/S04E08.Super.Bad.Boyfriend/index.m3u8
+- episode: 9
+  title: Save Lucifer
+  url:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.part2/-/blob/master/S04E09.Save.Lucifer/index.m3u8
+- episode: 10
+  title: Who's da New King of Hell?
+  url:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.part2/-/blob/master/S04E10.Whos.Da.New.King.Of.Hell/index.m3u8
