@@ -226,12 +226,6 @@ main .single .card .cover .overlay .info-ctn .release-year {
   transform: scale(1.1);
 }
 
-.flag.vn {
-  height: var(--custom-btn-lineheight);
-  width: var(--custom-btn-lineheight);
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAvCAYAAABe1bwWAAAC/klEQVRoQ+2bz2sTQRTHv292Nz+siGireBAPgp4EwUvBq9QK9dDS1INWK9X25EFU/CdE0YtUQQsKIlErEUTRm5cKCoKevCh60NqmWGxrkv3xZNYkLdZ0O6HZDduZU8jOTOb7me97bwizhEUtnxnuJHjDDG4HaCsAWvw8hp8Z4AkCjTPEyObsyLOKRl/4p4GB1Ia5xCjAR2IoXkES3Z9Hy8nt2Su/fTBTvUN3iPiYwgyx7cpMd1sf3OinfO9QB4ifx1ZpPcKYDlI+M/QQ4J56xsd4zBjlM6cnAbTGWGQd0vi7BMN1jIz7EE+DqbHFGowGoxb92jHaMdoxagS0Y9R46RzT7I6hNgZPNs+/HE3hGEoDqXM2Clct8C81yzeqd1OAMfZ6SHS7sJ8acF6LRmlVmrcpwCSOOjB2MbzPhOJtU0lAozpHDsYPo/M2IHkwULhkgWcbJXfl80YLRgBWlwtzn1ddsftOoPTY8CFF2UIDI7YwzAMeyFpQTJsA2riUAE8RvC8EdgCUAC4R3PcEng6vaoUGBhaQ7HcgdqhbQYZWcdQMtZyHB0bGhQUkMi6M3QuhExQu3jdC6Z4BngnPLXJN4YKRvyiARI8LY08wHPdDOd/YQfhW/3n4YORupIDUhXIlqqHJ+0EoXjeBYH6rTyUSx5RlpM44oNba+cZ5JWC/NBoieiWTRuIYmWvSF20/59RqzlsBO7fGwIidjORxWYv/NplYeQYQ27gKi/OEwrXoTsGROMbqcGHu94AiYL8w4LwR/oGOWgDr0EJiLlw2Q69Glc2KBEzylOMf3Eo5A/xzaRmW5dzq8mA/MeB+DLdMRwpGOoPnAlKgTC+yIqmfB1eSWwP7ROKYwFU1QQcNpsYmaDAajFp8asdox2jHqBHQjlHjpXPMMo7Rd/CWwOG8dMwjAN1qRot97zF9z/d/e0zo1DfD/wFTvRkuv/+aOZtex7OjIPTFPkiWE0jIzvP6E9V3CSp9p/sGD4PFIAPtAOTbJ2uhTRAw7gK32rI3cxXBfwBoWjSUbGEZHQAAAABJRU5ErkJggg==");
-}
-
 .nowarp {
   white-space: nowrap;
 }
