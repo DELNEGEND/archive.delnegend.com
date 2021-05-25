@@ -1,20 +1,84 @@
 - episode: 1
   title: Pilot
-  url:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.part1/-/raw/master/S01E01.Pilot/index.m3u8
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/raw/master/S01E01.Pilot/index.m3u8
+  subs:
+    - VI__sub/S01/01.VI.srt
+    - EN__sub/S01/01.EN.srt
 - episode: 2
   title: Lucifer, Stay. Good Devil.
-  url:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.part1/-/raw/master/S01E02.Lucifer_Stay_Good_Devil/index.m3u8
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/raw/master/S01E02.Lucifer_Stay_Good_Devil/index.m3u8
+  subs:
+    - VI__sub/S01/02.VI.srt
+    - EN__sub/S01/02.EN.srt
 - episode: 3
   title: The Would-Be Prince of Darkness
-  url:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.part1/-/raw/master/S01E03.The_Would-Be_Prince_of_Darkness/index.m3u8
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/raw/master/S01E03.The_Would-Be_Prince_of_Darkness/index.m3u8
+  subs:
+    - VI__sub/S01/03.VI.srt
+    - EN__sub/S01/03.EN.srt
 - episode: 4
   title: Manly Whatnots
-  url:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.part1/-/raw/master/S01E04.Manly_Whatnots/index.m3u8
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/raw/master/S01E04.Manly_Whatnots/index.m3u8
+  subs:
+    - VI__sub/S01/04.VI.srt
+    - EN__sub/S01/04.EN.srt
 - episode: 5
   title: Sweet Kicks
-  url:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.part1/-/raw/master/S01E05.Sweet_Kicks/index.m3u8
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/raw/master/S01E05.Sweet_Kicks/index.m3u8
+  subs:
+    - VI__sub/S01/05.VI.srt
+    - EN__sub/S01/05.EN.srt
+- episode: 6
+  title: Favorite Son
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/blob/master/S01E06.Favorite_Son/index.m3u8
+  subs:
+    - VI__sub/S01/06.VI.srt
+    - EN__sub/S01/06.EN.srt
+- episode: 7
+  title: Wingman
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/blob/master/S01E07.Wingman/index.m3u8
+  subs:
+    - VI__sub/S01/07.VI.srt
+    - EN__sub/S01/07.EN.srt
+- episode: 8
+  title: Et Tu, Doctor?
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/blob/master/S01E08.Et_Tu_Doctor/index.m3u8
+  subs:
+    - VI__sub/S01/08.VI.srt
+    - EN__sub/S01/08.EN.srt
+- episode: 9
+  title: A Priest Walks into a Bar
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/blob/master/S01E09.A_Priest_Walks_into_a_Bar/index.m3u8
+  subs:
+    - VI__sub/S01/09.VI.srt
+    - EN__sub/S01/09.EN.srt
+- episode: 10
+  title: Pops
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/blob/master/S01E10.Pops/index.m3u8
+  subs:
+    - VI__sub/S01/10.VI.srt
+    - EN__sub/S01/10.EN.srt
+- episode: 11
+  title: St. Lucifer
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/blob/master/S01E11.St.Lucifer/index.m3u8
+  subs:
+    - VI__sub/S01/11.VI.srt
+    - EN__sub/S01/11.EN.srt
+- episode: 12
+  title: '#TeamLucifer'
+  urls:
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/blob/master/S01E12.TeamLucifer/index.m3u8
+  subs:
+    - VI__sub/S01/12.VI.srt
+    - EN__sub/S01/12.EN.srt

@@ -1,3 +1,4 @@
+/* eslint-disable indent */
 /* eslint-disable require-jsdoc */
 /* eslint-disable max-len */
 const dngndFunc = {
@@ -62,7 +63,7 @@ const dngndFunc = {
     element.classList.add('direct-link-grid-view');
     data = await this.getYAML(data_file) || [];
     if (!data.length) return new Error('This', data, 'is invalid or empty');
-    data.forEach((elem) => {
+    for (const elem of data) {
       const
         episode = elem.episode;
       const poster = elem.poster || '/img/blank.jpg';
@@ -102,23 +103,26 @@ const dngndFunc = {
         ${summary}
       </div>
       `);
-    });
+    };
   },
   async dlTableView(data_file, element, directOrNormal = 'normal') {
     if (!element) return new Error('Invalid element');
     const data = await this.getYAML(data_file) || [];
+    if (!data.length) return new Error('Invalid', data);
     const output = [];
-    if (!data.length) return new Error('This', data, 'is invalid or empty');
+    let subtitles_header = '';
+
+    for (const elem of data) if (elem.subs) subtitles_header = `<th>Subtitle</th>`;
+
     output.push( /* html */ `
       <div class=table>
         <table>
-          <thead>
-            <tr>
-              <th>Episode</th>
-              <th>Title</th>
-              <th>URLs</th>
-            </tr>
-          </thead>
+            <thead><tr>
+                <th>Episode</th>
+                <th>Title</th>
+                <th>URLs</th>
+                ${subtitles_header}
+            </tr></thead>
           <tbody>
     `);
 
@@ -126,13 +130,13 @@ const dngndFunc = {
       type = type.toLowerCase();
       const temp = [];
       if (type == 'direct') {
-        temp.push( /* html */ `<span class="standard-btn" onclick="dngndFunc.string2clip('${data}',this)">`);
+        temp.push( /* html */ `<span class="standard-btn" onclick="dngndFunc.string2clip(\`${data}\`,this)">`);
         if (!display2) temp.push(`<span class="buttonInner">${display}</span>`);
         else if (display2) {
           temp.push( /* html */ `
-          <div class="buttonInnerSlide">${display}</div>
-          <div class="buttonInnerAlter">${display2}</div>
-        `);
+            <div class="buttonInnerSlide">${display}</div>
+            <div class="buttonInnerAlter">${display2}</div>
+          `);
         }
         temp.push(`</span>`);
       } else if (type == 'normal') {
@@ -157,28 +161,43 @@ const dngndFunc = {
       }
       return temp.join('');
     };
-
-    for (const elem of data) {
+    const createSubBtn = (language, data) => {
+      return `<span class='flag ${language.toLowerCase()}'></span>`;
+    };
+    for (const episode of data) {
       output.push(`
         <tr>
-          <th>${elem.episode}</th>
-          <td>${elem.title}</td>
+          <th>${episode.episode}</th>
+          <td>${episode.title}</td>
           <th>
       `);
-      // const array_to_process = elem.url.split('__');
-      elem.url.forEach((e) => {
-        ep = e.split('__');
-        if (ep.length == '3') output.push(createBtn(ep[0], ep[1], false, ep[2]));
-        if (ep.length == '4') output.push(createBtn(ep[0], ep[1], ep[2], ep[3]));
-      });
-      output.push(`</th></tr>`);
+
+      // iterate urls array from data
+      for (const i of episode.urls) {
+        e = i.split('__');
+        if (e.length == '3') output.push(createBtn(e[0], e[1], false, e[2]));
+        if (e.length == '4') output.push(createBtn(e[0], e[1], e[2], e[3]));
+      };
+
+      // iterate subs array from data
+      if (episode.subs) {
+        output.push(`</th><th>`);
+        for (const i of episode.subs) {
+          language = i.split('__');
+          output.push(`
+            <a class="subtitle_btn_ctn" href="${language[1]}" download="[${document.querySelector('title').innerHTML.replace(' – Delnegend','')}] ${language[1].replace('/','_')}">
+              <img class=flag src="/flag/${language[0].toLowerCase()}.svg">
+            </a>`);
+        }
+        output.push(`</th></tr>`);
+      } else if (!episode.subs) {
+        output.push(`</th></tr>`);
+      }
     }
 
-    output.push(`
-          </tbody>
-        </table>
-      </div>
-    `);
+    // iterate subs array from data
+
+    output.push(`</tbody></table></div>`);
     element.append(this.string2Node(output.join('').replace('/[\t\n\r\s]+/g', '')));
   },
   saveCheckboxStateToLocalStorage(checkboxElem) {
