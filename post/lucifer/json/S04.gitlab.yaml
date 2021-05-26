@@ -84,7 +84,7 @@
 - episode: 9
   title: Save Lucifer
   urls:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.p2/-/blob/master/S04E09.Save.Lucifer/index.m3u8
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.p2/-/raw/master/S04E09.Save.Lucifer/index.m3u8
   subs:
     - vi__sub/S04/09.vi.srt
     - en__sub/S04/09.en.srt
@@ -95,7 +95,7 @@
 - episode: 10
   title: Who's da New King of Hell?
   urls:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.p2/-/blob/master/S04E10.Whos.Da.New.King.Of.Hell/index.m3u8
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s04.p2/-/raw/master/S04E10.Whos.Da.New.King.Of.Hell/index.m3u8
   subs:
     - vi__sub/S04/10.vi.srt
     - en__sub/S04/10.en.srt

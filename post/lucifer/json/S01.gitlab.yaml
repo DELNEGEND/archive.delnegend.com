@@ -36,49 +36,49 @@
 - episode: 6
   title: Favorite Son
   urls:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/blob/master/S01E06.Favorite_Son/index.m3u8
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/raw/master/S01E06.Favorite_Son/index.m3u8
   subs:
     - VI__sub/S01/06.VI.srt
     - EN__sub/S01/06.EN.srt
 - episode: 7
   title: Wingman
   urls:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/blob/master/S01E07.Wingman/index.m3u8
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/raw/master/S01E07.Wingman/index.m3u8
   subs:
     - VI__sub/S01/07.VI.srt
     - EN__sub/S01/07.EN.srt
 - episode: 8
   title: Et Tu, Doctor?
   urls:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/blob/master/S01E08.Et_Tu_Doctor/index.m3u8
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p1/-/raw/master/S01E08.Et_Tu_Doctor/index.m3u8
   subs:
     - VI__sub/S01/08.VI.srt
     - EN__sub/S01/08.EN.srt
 - episode: 9
   title: A Priest Walks into a Bar
   urls:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/blob/master/S01E09.A_Priest_Walks_into_a_Bar/index.m3u8
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/raw/master/S01E09.A_Priest_Walks_into_a_Bar/index.m3u8
   subs:
     - VI__sub/S01/09.VI.srt
     - EN__sub/S01/09.EN.srt
 - episode: 10
   title: Pops
   urls:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/blob/master/S01E10.Pops/index.m3u8
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/raw/master/S01E10.Pops/index.m3u8
   subs:
     - VI__sub/S01/10.VI.srt
     - EN__sub/S01/10.EN.srt
 - episode: 11
   title: St. Lucifer
   urls:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/blob/master/S01E11.St.Lucifer/index.m3u8
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/raw/master/S01E11.St.Lucifer/index.m3u8
   subs:
     - VI__sub/S01/11.VI.srt
     - EN__sub/S01/11.EN.srt
 - episode: 12
   title: '#TeamLucifer'
   urls:
-    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/blob/master/S01E12.TeamLucifer/index.m3u8
+    - DIRECT__Copy__https://gitlab.com/luu-phim/lucifer.s01.p2/-/raw/master/S01E12.TeamLucifer/index.m3u8
   subs:
     - VI__sub/S01/12.VI.srt
     - EN__sub/S01/12.EN.srt

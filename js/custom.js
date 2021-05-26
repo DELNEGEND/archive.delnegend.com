@@ -185,7 +185,7 @@ const dngndFunc = {
         for (const i of episode.subs) {
           language = i.split('__');
           output.push(`
-            <a class="subtitle_btn_ctn" href="${language[1]}" download="[${document.querySelector('title').innerHTML.replace(' – Delnegend','')}] ${language[1].replace('/','_')}">
+            <a class="subtitle_btn_ctn" href="${language[1]}" download="[${document.querySelector('title').innerHTML.replace(' – Delnegend', '')}] ${language[1].replace('/', '_')}">
               <img class=flag src="/flag/${language[0].toLowerCase()}.svg">
             </a>`);
         }
@@ -319,6 +319,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
   // #endregion
+
+  (() => {
+    const e = document.querySelectorAll('p');
+    for (const elem of e) {
+      // if (elem.innderHTML == '')
+      if (elem.innerHTML == '') elem.parentElement.removeChild(elem);
+    }
+  })();
 });
 window.addEventListener('load', () => {
   if (!dngndFunc.isFirefox()) dngndFunc.recheckBoxes();
