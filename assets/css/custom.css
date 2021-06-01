@@ -311,6 +311,7 @@ hr.dotted {
   margin: 0;
   text-align: center;
   text-transform: uppercase;
+  width: 100%;
 }
 .download-section-ctn .links-container {
   padding: 1em;
@@ -665,6 +666,15 @@ hr.dotted {
   height: var(--custom-btn-lineheight);
   max-width: calc(var(--custom-btn-lineheight) * 1.5);
   border-radius: var(--border-radius-s);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  width: fit-content;
+}
+
+[flexRow=""] {
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=custom.css.map */
